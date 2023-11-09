@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.navbar{
+    width: 1200px;
+    height: 10px;
+    margin: auto;
+}
+
+.icon{
+    width: auto;
+    float: left;
+    height: auto;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.content{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+    color: black;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content .parb{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #ff7200;
+}
+
+.content .parc{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content .pard{
+    padding-left: 43%;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ff7200;
+}
+
+.content h1{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.content h3{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 300px;
+    height: 50px;
+    background: #ff7200;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 37%;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+
+.content .cn a{
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: #000;
+    transition: 1s ease;
+}
+
+.cn:hover{
+    background-color: black;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.content .para{
+    padding-left: 17%;
+    margin-top: 10%;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.ytnn{
+    width: 50px;
+    height: 30px;
+    background: black;
+    border: none;
+    margin-top: 1%;
+    margin-left: 15%;
+    image-resolution: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: 1s ease;
+}
+
+.ytnn:hover{
+    background: black;
+    color: #ff7200;
+}
+
+.ytnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.ytnn img{
+    width: 30px;
+    height: 30px;
+    color: aqua;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 4.5vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: auto;
+        padding-right: 20px;
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+    .content a{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    .main{
+        width: 100%;
+        padding-right: 30px;
+        height: 200vh;
+    }
+
+    .ytnn{
+        width: 50px;
+        height: 30px;
+        background: black;
+        border: none;
+        margin-top: 1%;
+        margin-left: 15%;
+        image-resolution: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+        transition: 1s ease;
+    }
+    
+    .ytnn:hover{
+        background: black;
+        color: #ff7200;
+    }
+    
+    .ytnn a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .ytnn img{
+        width: 30px;
+        height: 30px;
+        color: aqua;
+    }
+
+.btnn a{
+    font-size: 16px;
+}
+.form .link a{
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:830px) {
+
+    .content{
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .content h1, .content span{
+        font-size: 6vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vh;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw;
+    }
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vh;
+    }
+    .menu{
+        width: 100%;
+        height: fit-content;
+    }
+    ul{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+        font-size: 2vh;
+    }
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;
+    }
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .btn{
+        height: 30px;
+        width: 70px;
+    }
+    
+}
